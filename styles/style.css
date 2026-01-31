@@ -112,13 +112,14 @@ body {
   padding: 4px 12px;
   border-radius: 20px;
   z-index: 5;
-  animation: rotateBadge 4s linear infinite;
+  animation: rotateBadge 7s linear infinite;
 }
 
 @keyframes rotateBadge {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -190,4 +191,136 @@ body {
 
 .second-btn:hover {
   transform: scale(1.1);
+}
+
+
+/* About The Podcast Section */
+
+.about-section {
+  text-align: center;
+  padding: 50px 200px 120px 200px;
+}
+
+.about-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  color: white;
+}
+
+.about-section p {
+  font-size: 1.15rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+hr {
+  height: 0.5px;
+  margin: 10px 0;
+  color: white;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.about-cards p {
+  padding-top: 5px;
+  color: rgba(250, 250, 250, 0.8);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.about-cards h2 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #00FF88;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* Why Choose Section (Grid) */
+
+#why-choose {
+  padding: 80px 120px;
+  background: #230E3D;
+}
+
+#why-choose h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid1 {
+  grid-row: span 2;
+  background: #351165;
+  border-radius: 18px;
+  padding: 30px;
+  color: #FFF;
+  min-height: 160px;
+}
+
+.grid2 {
+  grid-column: span 3;
+  background: #351165;
+  border-radius: 18px;
+  padding: 30px;
+  color: #FFF;
+  min-height: 160px;
+}
+
+.grid3 {
+  grid-column: span 3;
+  background: #351165;
+  border-radius: 18px;
+  padding: 30px;
+  color: #FFF;
+  min-height: 160px;
+}
+
+.grid4 {
+  grid-column: span 3;
+  background: #351165;
+  border-radius: 18px;
+  padding: 30px;
+  color: #FFF;
+  min-height: 160px;
+}
+
+.grid5 {
+  grid-column: span 1;
+  background: #351165;
+  border-radius: 18px;
+  padding: 30px;
+  color: #FFF;
+  min-height: 160px;
+}
+
+.grid-section h3 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.grid-section p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.5;
+  text-align: left;
+  justify-content: left;
 }
