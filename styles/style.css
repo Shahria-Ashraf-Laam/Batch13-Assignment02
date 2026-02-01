@@ -64,6 +64,22 @@ body {
   height: auto;
 }
 
+/* For Responsive (display:block)  */
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.hamburger-btn img {
+  display: none;
+  width: 24px;
+  height: auto;
+  background: none;
+}
+
 
 /* Banner Section */
 
